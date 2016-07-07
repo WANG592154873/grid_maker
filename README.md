@@ -2,14 +2,20 @@
 ~$ roscore
 
 # Step 2: Create workspace
+
 ~$ mkdir -p catkin_ws/src
+
 ~$ cd catkin_ws/src
+
 ~$ catkin_init_workspace
 
 # Step 3: Initialize package 
 Copy [grid_maker] into [catkin_ws/src]
+
 ~$ cd catkin_ws
+
 ~$ catkin_make
+
 ~$ source devel/setup.bash
 
 # Step 4: Modify your code
@@ -17,12 +23,16 @@ Copy [grid_maker] into [catkin_ws/src]
 
 # Step 5: Run your package
 ~$ cd catkin_ws | catkin_make
+
 ~$ rosrun [package_name] [node_name] # rosrun grid_maker drawGrip
 
 # Step 6: Run rviz
 ~$ rosrun rviz rviz
+
 Setting:
+
 ## Gloabal Option
+
 Fixd Frame := odom
 
 ## Grid
