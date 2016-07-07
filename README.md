@@ -37,22 +37,31 @@ Fixd Frame := odom
 
 ## Grid
 Plane Cell Count := 100 	# Max Grid Number
+
 Cell Size := 0.5 			# (m) 
 
 ## Button [Add]
-Select [rviz/Axes]
+Select [rviz/Axes] 
+
 Length := 0.5				# (m)
+
 Radius := 0.03				# (m)
 
 ## Button [Add]
 Select [rviz/MarkerArray]
+
 Marker Topic := visualization_maker_array
+
 Queue Size := 500
 
 
 [Attention]
 Text format: x,y (unit: m)
+
 4,5
+
 6,-9
+
 2.3,9.0
+
 -2.4,0.01
